@@ -1,0 +1,20 @@
+.header {
+    background-color: rgb(126, 126, 231);
+    padding: 10px;
+    display: flex;
+}
+
+.logo {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.links-container {
+    display: flex;
+    text-align: center;
+}
+
+.links {
+    padding-right: 2.5vw;
+    padding-left: 2.5vw;
+}
