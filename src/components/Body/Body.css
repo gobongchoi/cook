@@ -4,3 +4,32 @@
     font-size: 30px;
     padding-top: 4vh;
 }
+
+.Box {
+    background-color: rgb(216, 216, 216);
+    display: flex;
+}
+
+.Box-Card {
+    background-color: rgb(243, 243, 243);
+    align-items: center;
+    text-align: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    border-style: dashed;
+    margin: 30px;
+    display: grid;
+}
+
+
+.Title {
+    padding-top: 15px;
+}
+
+img {
+    filter: drop-shadow( 2px 14px 7px );
+}
+
+.Salat-Img {
+    height: 150px;
+}
