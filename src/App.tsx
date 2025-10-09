@@ -7,7 +7,6 @@ function App() {
     <div>
       <Header />
       <Body />
-        hello world
     </div>
   );
 }

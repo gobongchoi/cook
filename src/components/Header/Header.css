@@ -1,7 +1,8 @@
 .header {
-    background-color: rgb(126, 126, 231);
+    background-color: rgb(75, 75, 75);
     padding: 10px;
     display: flex;
+    color: white;
 }
 
 .logo {
