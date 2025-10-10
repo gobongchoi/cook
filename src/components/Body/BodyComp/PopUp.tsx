@@ -4,7 +4,7 @@ import { useState } from 'react'
 function PopUp() {
 
         const buttonStyle: React.CSSProperties = {
-            backgroundColor: "#1976d2",
+            backgroundColor: "#dbaf21ff",
             color: "white",
             border: "none",
             borderRadius: "6px",
@@ -47,6 +47,7 @@ function PopUp() {
             padding: "8px 12px",
             borderRadius: "6px",
             cursor: "pointer",
+            marginLeft: '20px',
         }
     
         const [isOpen, setIsOpen] = useState(false);

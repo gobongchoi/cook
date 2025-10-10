@@ -2,6 +2,7 @@ import React from 'react'
 import './Body.css'
 import SalatImg from '../../images/salat.png'
 import PopUpButton from './BodyComp/PopUp'
+import FoodCard from '../Body/BodyComp/FoodCards'
 
 
 function Body() {
@@ -19,7 +20,7 @@ function Body() {
             <div className='Text'>
 
                 <div>
-                    Simple and Tasty Recipes 1Test1
+                    Simple and Tasty Recipes
                 </div>
 
                 <div style={boxStyle}>
@@ -31,31 +32,10 @@ function Body() {
             <div>
                 <img src={SalatImg} alt='Salat' className='Salat-Img1'/>
             </div>
-
+        
         </div>
 
-        <div className='Box'>
-
-            <div className='Box-Card'>
-                <img src={SalatImg} alt='Salat' className='Salat-Img'/>
-                <div className='Title'>
-                    Fresh and Healthy Salat
-                </div>
-            </div>
-
-            <div className='Box-Card'>
-                Fresh and Healthy Salat
-            </div>
-
-            <div className='Box-Card'>
-                Fresh and Healthy Salat
-            </div>
-
-            <div className='Box-Card'>
-                Fresh and Healthy Salat
-            </div>
-
-        </div>
+        <FoodCard />
 
     </div>
   )
