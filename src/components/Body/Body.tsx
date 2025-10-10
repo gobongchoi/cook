@@ -19,7 +19,7 @@ function Body() {
             <div className='Text'>
 
                 <div>
-                    Simple and Tasty Recipes
+                    Simple and Tasty Recipes 1Test1
                 </div>
 
                 <div style={boxStyle}>
